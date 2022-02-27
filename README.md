@@ -1,5 +1,13 @@
 # ToshibaT3200SX
 
+# Interesting features
+
+### Security lug
+
+### Keyboard connector
+
+### 2x ISA slots
+
 
 # Hard Disk Drive (HDD)
 
