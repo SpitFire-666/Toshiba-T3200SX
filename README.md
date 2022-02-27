@@ -56,6 +56,11 @@ I have discovered out how to make a standard 2 Meg or 1 Meg 30 pin SIMM work in 
 
 http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html
 
+## Removing the keyboard
+
+- Remove 4x screws along the front near the handle (located on bottom)
+- Carefully lift up the keyboard along the front, middle edge - it should pop out
+
 
 # References
 
