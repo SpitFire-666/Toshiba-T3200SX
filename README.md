@@ -14,7 +14,12 @@ Conner CP-30104
  
  # BIOS
  
- - BIOS access: hold ESC while powering on system, or use TEST3.exe from DOS
+ ### Accessing the BIOS
+ 
+ - hold ESC while powering on system
+ - use TEST3.exe from DOS
+ - Press CTRL + SHIFT + F10 when the computer powers on
+ - disconnect the clock battery entirely. Wait for a few minutes and power up the computer 
 
 ### BIOS Versions
 
