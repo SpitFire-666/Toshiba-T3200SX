@@ -1,4 +1,7 @@
-# ToshibaT3200SX
+# Toshiba T3200SX - Info, mods, upgrades, how-tos
+
+![image](https://user-images.githubusercontent.com/38451588/155929216-99d89148-76d6-41d2-9388-4ca52fbab9c1.png)
+
 
 # Interesting features
 
