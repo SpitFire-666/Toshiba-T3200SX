@@ -11,6 +11,16 @@
 
 # Hard Disk Drive (HDD)
 
+The BIOS only officially supports two drive configurations - "Normal" and "Alternate" both are 40Mb in size. Ways to get full access to the rest of the disk are the same as for any other 286/386:
+
+- download ROM, edit drive table entries in hexideciaml, recalculate checksum, erase/write to a fresh EPROM and install (hardest)
+- throw in a network card with the AT version of the XT-IDE ROM in the Boot ROM socket (this gets past any HDD limitations - even LBA, so you could put in almost any IDE drive you want) - this auto detects on startup, and replaces the built in hard drive routines. (solves a lot of issues, but will use up at least your 8 bit ISA slot)
+- drive overlay software (like "OnTrack" - usually you want the version from the company that made the hard drive you're installing)
+
+Options 2 and/or 3 I can send up what you need preconfigured.
+
+NB: that XT-IDE ROM will also let you boot from another PC using a serial cable, that could be a godsend if you ever have an issue with the FDD.
+
 - Interface: Standard IDE
 
 Conner CP-30104
@@ -52,6 +62,7 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 - 6x 30-pin SIMM slots
 - ⚠ RAM is restricted to approved modules only
 - ⚠ Even though RAM may be tested OK at boot, it may cause random parity errors during use
+- With the addition of a Toshiba Expansion Chassis, the T3200SX will accept a standard 16bit memory expansion board and can then be upgraded to 16MB. 
 
 2MB SIMM: HYPERTECB#D 0994 HY444 TPA8309U
 
@@ -74,10 +85,12 @@ I have discovered out how to make a standard 2 Meg or 1 Meg 30 pin SIMM work in 
 
 http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html
 
-## Removing the keyboard
+## Removing the keyboard/Accessing RAM/BIOS/FPU socket
 
 - Remove 4x screws along the front near the handle (located on bottom)
 - Carefully lift up the keyboard along the front, middle edge - it should pop out
+- Remove 2x screws from the metal shield
+- Unplug keyboard connector
 
 
 # References
