@@ -2,12 +2,13 @@
 
 # Interesting features
 
-### Security lug
+- Security lug
 
-### Keyboard connector
+- Keyboard connector
 
-### 2x ISA slots
+- 2x ISA slots
 
+- Reset button
 
 # Hard Disk Drive (HDD)
 
@@ -53,21 +54,30 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 
 ### Modded BIOSes
 
+### CMOS Battery
+
+- ER6 3.6v Lithium battery, plugs into PJ3. A 330 Ohm resistor has been known to be included in series but I don't know how critical this is
+- Can use a 3V normal battery (eg 2032) but a diode may be required to prevent the machine from "charging" the battery
+- Battery sits in a holder behind the floppy drive (velcro'd on)
 
 
+# RAM/Memory
 
-# RAM
-
-- Standard 1 MB of RAM, expandable up to 13 MB
+- 1 MB of RAM is soldered in, expandable up to 13 MB
 - 6x 30-pin SIMM slots
-- ⚠ RAM is restricted to approved modules only
+- Only 1MB and 2MB modules are supported
+- ⚠ RAM is restricted to approved modules only and will give an error on boot:
+
+![image](https://user-images.githubusercontent.com/38451588/155928043-60b26f49-17e4-4f8d-aaaf-fcfcfbac2e31.png)
+
 - ⚠ Even though RAM may be tested OK at boot, it may cause random parity errors during use
 - With the addition of a Toshiba Expansion Chassis, the T3200SX will accept a standard 16bit memory expansion board and can then be upgraded to 16MB. 
 
-2MB SIMM: HYPERTECB#D 0994 HY444 TPA8309U
+## RAM examples
 
+- 2MB SIMM: HYPERTECB#D 0994 HY444 TPA8309U
 
-These sticks have been known to work:
+- These sticks have been known to work:
 
 ![image](https://user-images.githubusercontent.com/38451588/155879068-b4edad2b-308a-4560-9d71-8873c27d0e8f.png)
 
@@ -77,9 +87,9 @@ CAS line/trace going to pin28 has been intercepted and relayed to pin2.
 
 I have discovered out how to make a standard 2 Meg or 1 Meg 30 pin SIMM work in the T3200sx. What you have to do is cut the trace that is connected to the CASP line (pin 28) and connect that to the CAS line (pin 2). This will result in a 1 Meg module that will work with out the parity error that you will get with out this modification. I have noticed that your 2 Meg Toshiba SIMMs have only 4 chips on them instead of the usual 9 or 3. It would be interesting to try and find the datasheet for the chips and try and figure out the pinout of a 2 Meg Toshiba SIMM. In my T3200sx my 2 Meg modules have 6 chips and I have only been able to find the datasheet for 4 of them. I think that the other 2 are the parity chips but I am not sure. I have found out that pin 19 is grounded on the 2 Meg Toshiba SIMM. I am also guessing that pin 28 on the 2 Meg Toshiba SIMM is A10 but I am not sure. By the way feel free to post this information on your website where ever you think that people will read it. 
 
- You need 30 pin SIMM modules with a capacity of 1 MB or 2 MB. 4 MB modules are not recognized. 
+
  
- I have 2 x 2MB ram cards for Toshiba T3200. They are each Kingston KTT-3200SXC/4, seem to work ok
+ 
 
 # Disassembly
 
