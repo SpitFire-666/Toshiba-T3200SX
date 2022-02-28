@@ -31,18 +31,36 @@ Conner CP-30104
 
 ### BIOS Versions
 
+v5.10 | Chip: 003H
+
+### Dumping/Copying/updating BIOS
+
+- Need a TL866 Programmer
+- Need replacement 27C1024 chip(s) - 85ns is what appears to be standard for the T3200SXs
+- Chips can be OTP (one-time programmable) or UV (requires additional UV lamp)
+
+http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
+
+### Modded BIOSes
+
+
+
 
 # RAM
 
 - Standard 1 MB of RAM, expandable up to 13 MB
 - 6x 30-pin SIMM slots
-- ⚠ RAM is restricted to proprietary modules only
-- Even though RAM may be tested OK at boot, it may cause random parity errors during use
+- ⚠ RAM is restricted to approved modules only
+- ⚠ Even though RAM may be tested OK at boot, it may cause random parity errors during use
+
+2MB SIMM: HYPERTECB#D 0994 HY444 TPA8309U
+
 
 These sticks have been known to work:
 
 ![image](https://user-images.githubusercontent.com/38451588/155879068-b4edad2b-308a-4560-9d71-8873c27d0e8f.png)
 
+## RAM hack
 
 CAS line/trace going to pin28 has been intercepted and relayed to pin2.
 
