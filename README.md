@@ -12,24 +12,14 @@
 
 # Hard Disk Drive (HDD)
 
-The BIOS only officially supports two drive configurations - "Normal" and "Alternate" both are 40Mb in size. Ways to get full access to the rest of the disk are the same as for any other 286/386:
-
-- download ROM, edit drive table entries in hexideciaml, recalculate checksum, erase/write to a fresh EPROM and install (hardest)
-- throw in a network card with the AT version of the XT-IDE ROM in the Boot ROM socket (this gets past any HDD limitations - even LBA, so you could put in almost any IDE drive you want) - this auto detects on startup, and replaces the built in hard drive routines. (solves a lot of issues, but will use up at least your 8 bit ISA slot)
-- drive overlay software (like "OnTrack" - usually you want the version from the company that made the hard drive you're installing)
-
-Options 2 and/or 3 I can send up what you need preconfigured.
-
-NB: that XT-IDE ROM will also let you boot from another PC using a serial cable, that could be a godsend if you ever have an issue with the FDD.
-
 - Interface: Standard IDE
 
-Conner CP-30104
+
+- Conner CP-30104
 
 ![image](https://user-images.githubusercontent.com/38451588/155868502-bcbbdce4-fc74-4277-a7fe-7b589f1a988b.png)
 
 
- I removed the old defective drive and installed a newer harddisk with a capacity of 2 GB. Enough for this pretty little machine. The BIOS is not able to recognize this harddisk so it is necessary to tell the BIOS that no harddisk is installed. Otherwise it will end up in an error message and it is not able to boot. Yes, if you disable the harddisk in the BIOS you can't boot from it. But no problem. The machine has a floppy drive so I created a boot disk with a linux kernel on it. Linux recognizes the harddisk even if it is not enabled in the BIOS so the kernel can mount the harddisk as the Root-Partition. 
  
  # BIOS
  
@@ -83,10 +73,6 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 
 ## RAM hack
 
-CAS line/trace going to pin28 has been intercepted and relayed to pin2.
-
-I have discovered out how to make a standard 2 Meg or 1 Meg 30 pin SIMM work in the T3200sx. What you have to do is cut the trace that is connected to the CASP line (pin 28) and connect that to the CAS line (pin 2). This will result in a 1 Meg module that will work with out the parity error that you will get with out this modification. I have noticed that your 2 Meg Toshiba SIMMs have only 4 chips on them instead of the usual 9 or 3. It would be interesting to try and find the datasheet for the chips and try and figure out the pinout of a 2 Meg Toshiba SIMM. In my T3200sx my 2 Meg modules have 6 chips and I have only been able to find the datasheet for 4 of them. I think that the other 2 are the parity chips but I am not sure. I have found out that pin 19 is grounded on the 2 Meg Toshiba SIMM. I am also guessing that pin 28 on the 2 Meg Toshiba SIMM is A10 but I am not sure. By the way feel free to post this information on your website where ever you think that people will read it. 
-
 
  
  
@@ -112,3 +98,26 @@ https://www.vogons.org/viewtopic.php?p=823257#p823257
 http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html
 
 https://medium.com/geekculture/the-luggable-laptop-how-does-it-look-today-part-ii-toshiba-t3200-from-1989-6d15ce56eadd
+
+
+# Unverified/unsorted info
+
+The BIOS only officially supports two drive configurations - "Normal" and "Alternate" both are 40Mb in size. Ways to get full access to the rest of the disk are the same as for any other 286/386:
+
+- download ROM, edit drive table entries in hexideciaml, recalculate checksum, erase/write to a fresh EPROM and install (hardest)
+- throw in a network card with the AT version of the XT-IDE ROM in the Boot ROM socket (this gets past any HDD limitations - even LBA, so you could put in almost any IDE drive you want) - this auto detects on startup, and replaces the built in hard drive routines. (solves a lot of issues, but will use up at least your 8 bit ISA slot)
+- drive overlay software (like "OnTrack" - usually you want the version from the company that made the hard drive you're installing)
+
+Options 2 and/or 3 I can send up what you need preconfigured.
+
+NB: that XT-IDE ROM will also let you boot from another PC using a serial cable, that could be a godsend if you ever have an issue with the FDD.
+
+
+
+CAS line/trace going to pin28 has been intercepted and relayed to pin2.
+
+I have discovered out how to make a standard 2 Meg or 1 Meg 30 pin SIMM work in the T3200sx. What you have to do is cut the trace that is connected to the CASP line (pin 28) and connect that to the CAS line (pin 2). This will result in a 1 Meg module that will work with out the parity error that you will get with out this modification. I have noticed that your 2 Meg Toshiba SIMMs have only 4 chips on them instead of the usual 9 or 3. It would be interesting to try and find the datasheet for the chips and try and figure out the pinout of a 2 Meg Toshiba SIMM. In my T3200sx my 2 Meg modules have 6 chips and I have only been able to find the datasheet for 4 of them. I think that the other 2 are the parity chips but I am not sure. I have found out that pin 19 is grounded on the 2 Meg Toshiba SIMM. I am also guessing that pin 28 on the 2 Meg Toshiba SIMM is A10 but I am not sure. By the way feel free to post this information on your website where ever you think that people will read it. 
+
+
+
+ I removed the old defective drive and installed a newer harddisk with a capacity of 2 GB. Enough for this pretty little machine. The BIOS is not able to recognize this harddisk so it is necessary to tell the BIOS that no harddisk is installed. Otherwise it will end up in an error message and it is not able to boot. Yes, if you disable the harddisk in the BIOS you can't boot from it. But no problem. The machine has a floppy drive so I created a boot disk with a linux kernel on it. Linux recognizes the harddisk even if it is not enabled in the BIOS so the kernel can mount the harddisk as the Root-Partition. 
