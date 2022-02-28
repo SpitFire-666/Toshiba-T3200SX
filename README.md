@@ -22,6 +22,12 @@
 
 ![image](https://user-images.githubusercontent.com/38451588/155868502-bcbbdce4-fc74-4277-a7fe-7b589f1a988b.png)
 
+## HDD replacement/upgrades
+
+⚠ Even though the interface is IDE, only certain Conner drives are accepted:
+
+![image](https://user-images.githubusercontent.com/38451588/155963732-d490cf97-a6b0-4f93-8cb7-6e3f3d54fdb1.png)
+
 
  
  # BIOS
@@ -100,7 +106,11 @@ _If you're going to go with a crappy HDD, at least let us swap it out easily! Wh
 - Undo the cable clasp (gold screw), you can use a right angle screw driver (I used multi-grips with and a screwdriver bit)
 - You should now be able to release the cables and rotate the screen/top section 90 degrees (barely enough to work with)
 - Release the power connector from the mainboard - this will give a little more wiggle room (note, the screen connector cannot be unplugged 😠)
-- There are 3 screws for the HDD sled, undo the lower and upper (near the SIMM slot and near the power supply)
+- There are 3 screws for the HDD sled, undo #1 and #2 (near the SIMM slot and near the power supply)
+
+![image](https://user-images.githubusercontent.com/38451588/155965401-8e72efff-0b52-400c-99af-8d6a23078a15.png)
+
+
 - Now you can wiggle the HDD a bit - this will allow you to unplug the IDE cable from the drive (normally blocked by the expansion port connector thingy - again _who_ designed this?)
 - Unplug the HDD's power connector, this will reveal the third screw
 - Remove last screw and take out the HDD on its sled
