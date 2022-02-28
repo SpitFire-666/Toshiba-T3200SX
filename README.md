@@ -18,7 +18,7 @@
 - Interface: Standard IDE
 
 
-- Conner CP-30104
+- Conner CP-30104 - this is the 120MB HDD
 
 ![image](https://user-images.githubusercontent.com/38451588/155868502-bcbbdce4-fc74-4277-a7fe-7b589f1a988b.png)
 
@@ -96,6 +96,7 @@ http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T
 
 _If you're going to go with a crappy HDD, at least let us swap it out easily! Who designed this stupid thing?!_
 
+- ℹRemove RAM modules (well at least the left one)
 - Undo the cable clasp (gold screw), you can use a right angle screw driver (I used multi-grips with and a screwdriver bit)
 - You should now be able to release the cables and rotate the screen/top section 90 degrees (barely enough to work with)
 - Release the power connector from the mainboard - this will give a little more wiggle room (note, the screen connector cannot be unplugged 😠)
