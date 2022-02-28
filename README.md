@@ -92,6 +92,21 @@ http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T
 - Unplug keyboard connector
 
 
+## Replacing HDD
+
+_If you're going to go with a crappy HDD, at least let us swap it out easily! Who designed this stupid thing?!_
+
+- Undo the cable clasp (gold screw), you can use a right angle screw driver (I used multi-grips with and a screwdriver bit)
+- You should now be able to release the cables and rotate the screen/top section 90 degrees (barely enough to work with)
+- Release the power connector from the mainboard - this will give a little more wiggle room (note, the screen connector cannot be unplugged 😠)
+- There are 3 screws for the HDD sled, undo the lower and upper (near the SIMM slot and near the power supply)
+- Now you can wiggle the HDD a bit - this will allow you to unplug the IDE cable from the drive (normally blocked by the expansion port connector thingy - again _who_ designed this?)
+- Unplug the HDD's power connector, this will reveal the third screw
+- Remove last screw and take out the HDD on its sled
+- Contemplate the limited upgrade/replacement options 😢
+
+
+
 # References
 
 https://www.vogons.org/viewtopic.php?t=60109
