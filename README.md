@@ -88,6 +88,15 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 
 # Disassembly
 
+## Screw types
+
+- Base: 6x 10mm screws (brown)
+- Keyboard plate (steel cover): 2x 10mm screws (gold)
+- Rear plastic cover (eg with port labels): 2x 8mm screws
+- Rear metal cover (I/O port cover): 3x 8mm screws
+- Plastic covers on top: 2x 8mm screws (gold)
+- "Top" screw (need to confirm what this is!): 1x 8mm screw (gold)
+
 http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html
 
 ## Removing the keyboard/Accessing RAM/BIOS/FPU socket
