@@ -128,6 +128,12 @@ http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T
 
 https://medium.com/geekculture/the-luggable-laptop-how-does-it-look-today-part-ii-toshiba-t3200-from-1989-6d15ce56eadd
 
+https://www.dreamcast.nu/en/how-to-install-ms-dos-on-a-cf-card-without-using-a-floppy/
+
+https://www.reddit.com/r/VintageComputers/comments/rwrgdj/lotech_xt_to_cf_lite_question/
+
+https://www.reddit.com/r/vintagecomputing/comments/s4xgy7/made_a_breakthrough_with_screen_problems_bright/
+
 
 # Unverified/unsorted info
 
@@ -150,3 +156,5 @@ I have discovered out how to make a standard 2 Meg or 1 Meg 30 pin SIMM work in 
 
 
  I removed the old defective drive and installed a newer harddisk with a capacity of 2 GB. Enough for this pretty little machine. The BIOS is not able to recognize this harddisk so it is necessary to tell the BIOS that no harddisk is installed. Otherwise it will end up in an error message and it is not able to boot. Yes, if you disable the harddisk in the BIOS you can't boot from it. But no problem. The machine has a floppy drive so I created a boot disk with a linux kernel on it. Linux recognizes the harddisk even if it is not enabled in the BIOS so the kernel can mount the harddisk as the Root-Partition. 
+
+
