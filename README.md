@@ -1,5 +1,7 @@
 # Toshiba T3200SX - Info, mods, upgrades, how-tos
 
+_"First, we make the RAM non-standard, then we lock the BIOS to only accept Conner HDDs, then we make the machine painful to open"_  - Toshiba, 1989 (probably)
+
 ![image](https://user-images.githubusercontent.com/38451588/155929216-99d89148-76d6-41d2-9388-4ca52fbab9c1.png)
 
 
@@ -88,14 +90,14 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 
 # Disassembly
 
-## Screw types
+## Screw types 
 
 - Base: 6x 10mm screws (brown)
 - Keyboard plate (steel cover): 2x 10mm screws (gold)
 - Rear plastic cover (eg with port labels): 2x 8mm screws
 - Rear metal cover (I/O port cover): 3x 8mm screws
 - Plastic covers on top: 2x 8mm screws (gold)
-- "Top" screw (need to confirm what this is!): 1x 8mm screw (gold)
+- Top section screw (anchors the top section, near floppy drive mount): 1x 8mm screw (gold)
 
 http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html
 
