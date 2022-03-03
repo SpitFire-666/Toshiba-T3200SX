@@ -38,9 +38,14 @@ http://ps-2.kev009.com/sandy55/Interposer/386_upgrade.html
 - Interface: Standard IDE
 
 
-- Conner CP-30104 - this is the 120MB HDD
+- Conner CP-30104 - this is the 120MB HDD. Seems to come in two designs:
+
+![image](https://user-images.githubusercontent.com/38451588/156489701-bdf69780-0c87-43c3-b1d6-52d631953f38.png)
+
 
 ![image](https://user-images.githubusercontent.com/38451588/155868502-bcbbdce4-fc74-4277-a7fe-7b589f1a988b.png)
+
+
 
 
 ## HDD replacement/upgrades
