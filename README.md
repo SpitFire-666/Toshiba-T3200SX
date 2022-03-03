@@ -15,6 +15,24 @@ _"First, we make the RAM non-standard, then we lock the BIOS to only accept Conn
 
 - Reset button
 
+- Modem bay
+
+
+# CPU 
+
+- Intel i386SX @ 16MHz (soldered onto mainboard)
+
+## CPU Upgrade Options
+
+- Cx486SRx² (snaps on top of existing CPU)
+- Desolder existing CPU and solder a 486SX on (unknown if this would work - you might also need to replace the oscillator)
+
+https://www.ardent-tool.com/CPU/386_upgrade.html
+
+https://www.amibay.com/forum/amibayers/amioracle/31437-info-on-386-to-486-upgrade-cpus-please?30526-Info-on-386-to-486-Upgrade-cpus-please=
+
+http://ps-2.kev009.com/sandy55/Interposer/386_upgrade.html
+
 # Hard Disk Drive (HDD)
 
 - Interface: Standard IDE
@@ -23,6 +41,7 @@ _"First, we make the RAM non-standard, then we lock the BIOS to only accept Conn
 - Conner CP-30104 - this is the 120MB HDD
 
 ![image](https://user-images.githubusercontent.com/38451588/155868502-bcbbdce4-fc74-4277-a7fe-7b589f1a988b.png)
+
 
 ## HDD replacement/upgrades
 
