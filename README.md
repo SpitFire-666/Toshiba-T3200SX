@@ -109,14 +109,15 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 
 # Disassembly
 
-## Screw types 
+## Screw types 🔩
 
-- Base: 6x 10mm screws (brown)
+- Base: 10x 10mm screws (brown)
 - Keyboard plate (steel cover): 2x 10mm screws (gold)
 - Rear plastic cover (eg with port labels): 2x 8mm screws
 - Rear metal cover (I/O port cover): 3x 8mm screws
 - Plastic covers on top: 2x 8mm screws (gold)
 - Top section screw (anchors the top section, near floppy drive mount): 1x 8mm screw (gold)
+
 
 http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html
 
@@ -125,7 +126,7 @@ http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T
 - Remove 4x screws along the front near the handle (located on bottom)
 - Carefully lift up the keyboard along the front, middle edge - it should pop out
 - Remove 2x screws from the metal shield
-- Unplug keyboard connector
+- Unplug keyboard connector from mainboard
 
 
 ## Replacing HDD
