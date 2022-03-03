@@ -118,6 +118,7 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 - Rear metal cover (I/O port cover): 3x 8mm screws
 - Plastic covers on top: 2x 8mm screws (gold)
 - Top section screw (anchors the top section, near floppy drive mount): 1x 8mm screw (gold)
+- Floppy drive sled: 3x 8mm screws (gold)
 
 
 http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html
