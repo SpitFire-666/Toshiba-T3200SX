@@ -104,7 +104,7 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 
 ## RAM hack
 
-
+https://medium.com/geekculture/the-luggable-laptop-how-does-it-look-today-part-ii-toshiba-t3200-from-1989-6d15ce56eadd
  
  
 
