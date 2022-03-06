@@ -106,7 +106,13 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 
 https://medium.com/geekculture/the-luggable-laptop-how-does-it-look-today-part-ii-toshiba-t3200-from-1989-6d15ce56eadd
  
- 
+# Display Hinges 
+
+- Prone to breakage 😢
+
+![image](https://user-images.githubusercontent.com/38451588/156911198-4833f42c-18ff-4aab-b22c-30f145c78291.png)
+
+Hinge info/pics: https://www.reddit.com/r/retrobattlestations/comments/pd9lpv/toshiba_t3200sx_display_hinges_what_is_the/
 
 # Disassembly
 
@@ -149,6 +155,9 @@ _If you're going to go with a crappy HDD, at least let us swap it out easily! Wh
 - Remove last screw and take out the HDD on its sled
 - Contemplate the limited upgrade/replacement options 😢
 
+# Maintenance Manual
+
+http://omolini.steptail.com/t3200sx/files/docs/Toshiba%20T3200SX%20-%20Maintenance%20Manual.pdf
 
 
 # References
@@ -166,6 +175,9 @@ https://www.dreamcast.nu/en/how-to-install-ms-dos-on-a-cf-card-without-using-a-f
 https://www.reddit.com/r/VintageComputers/comments/rwrgdj/lotech_xt_to_cf_lite_question/
 
 https://www.reddit.com/r/vintagecomputing/comments/s4xgy7/made_a_breakthrough_with_screen_problems_bright/
+
+
+https://www.youtube.com/watch?v=GzktcqYO8zw
 
 
 # Unverified/unsorted info
