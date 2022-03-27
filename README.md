@@ -77,7 +77,8 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 
 ### CMOS Battery
 
-- ER6 3.6v Lithium battery, plugs into PJ3. A 330 Ohm resistor has been known to be included in series but I don't know how critical this is
+- ER6 3.6v Lithium battery, plugs into PJ3 (Pin1 +ve, Pin3 -ve). Battery holder fits a AA battery.
+- A 330 Ohm resistor has been known to be included in series but I don't know how critical this is
 - Can use a 3V normal battery (eg 2032) but a diode may be required to prevent the machine from "charging" the battery
 - Battery sits in a holder behind the floppy drive (velcro'd on)
 
@@ -87,6 +88,7 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 - 1 MB of RAM is soldered in, expandable up to 13 MB
 - 6x 30-pin SIMM slots
 - Only 1MB and 2MB modules are supported
+- Memory appears to only work in pairs
 - ⚠ RAM is restricted to approved modules only and will give an error on boot:
 
 ![image](https://user-images.githubusercontent.com/38451588/155928043-60b26f49-17e4-4f8d-aaaf-fcfcfbac2e31.png)
