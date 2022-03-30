@@ -37,11 +37,13 @@ http://ps-2.kev009.com/sandy55/Interposer/386_upgrade.html
 
 - Interface: Standard IDE
 
-
 - Conner CP-30104 - this is the 120MB HDD
 
 ![image](https://user-images.githubusercontent.com/38451588/156489701-bdf69780-0c87-43c3-b1d6-52d631953f38.png)
 
+- HDD benchmark
+
+![image](https://user-images.githubusercontent.com/38451588/160823671-f259afed-fcee-45d1-baeb-a9dcd5fa5b12.png)
 
 
 ## HDD replacement/upgrades
@@ -50,11 +52,12 @@ http://ps-2.kev009.com/sandy55/Interposer/386_upgrade.html
 
 ![image](https://user-images.githubusercontent.com/38451588/155963732-d490cf97-a6b0-4f93-8cb7-6e3f3d54fdb1.png)
 
+- An XT-IDE CF adapter is an option
 
  
  # BIOS
  
- ### Accessing the BIOS
+ ### How to access the BIOS
  
  - hold ESC while powering on system
  - use TEST3.exe from DOS
@@ -77,10 +80,14 @@ http://omolini.steptail.com/t3200sx/files/T3200SX_BIOS.PDF
 
 ### CMOS Battery
 
-- ER6 3.6v Lithium battery, plugs into PJ3 (Pin1 +ve, Pin3 -ve). Battery holder fits a AA battery.
+- ER6 3.6v Lithium battery, plugs into PJ3 (Pin1 +ve, Pin3 -ve). Battery holder fits a AA battery
+
+![image](https://user-images.githubusercontent.com/38451588/160823372-a30813d8-7a9f-48c3-8189-b8cdea874811.png)
+
 - A 330 Ohm resistor has been known to be included in series but I don't know how critical this is
 - Can use a 3V normal battery (eg 2032) but a diode may be required to prevent the machine from "charging" the battery
 - Battery sits in a holder behind the floppy drive (velcro'd on)
+- I've had success replacing this with a 1.5V AA battery.
 
 
 # RAM/Memory
@@ -195,13 +202,10 @@ Options 2 and/or 3 I can send up what you need preconfigured.
 NB: that XT-IDE ROM will also let you boot from another PC using a serial cable, that could be a godsend if you ever have an issue with the FDD.
 
 
-
 CAS line/trace going to pin28 has been intercepted and relayed to pin2.
 
 I have discovered out how to make a standard 2 Meg or 1 Meg 30 pin SIMM work in the T3200sx. What you have to do is cut the trace that is connected to the CASP line (pin 28) and connect that to the CAS line (pin 2). This will result in a 1 Meg module that will work with out the parity error that you will get with out this modification. I have noticed that your 2 Meg Toshiba SIMMs have only 4 chips on them instead of the usual 9 or 3. It would be interesting to try and find the datasheet for the chips and try and figure out the pinout of a 2 Meg Toshiba SIMM. In my T3200sx my 2 Meg modules have 6 chips and I have only been able to find the datasheet for 4 of them. I think that the other 2 are the parity chips but I am not sure. I have found out that pin 19 is grounded on the 2 Meg Toshiba SIMM. I am also guessing that pin 28 on the 2 Meg Toshiba SIMM is A10 but I am not sure. By the way feel free to post this information on your website where ever you think that people will read it. 
 
 
 
- I removed the old defective drive and installed a newer harddisk with a capacity of 2 GB. Enough for this pretty little machine. The BIOS is not able to recognize this harddisk so it is necessary to tell the BIOS that no harddisk is installed. Otherwise it will end up in an error message and it is not able to boot. Yes, if you disable the harddisk in the BIOS you can't boot from it. But no problem. The machine has a floppy drive so I created a boot disk with a linux kernel on it. Linux recognizes the harddisk even if it is not enabled in the BIOS so the kernel can mount the harddisk as the Root-Partition. 
-
-
+ I removed the old defective drive and installed a newer harddisk with a capacity of 2 GB. Enough for this pretty little machine. The BIOS is not able to recognize this harddisk so it is necessary to tell the BIOS that no harddisk is installed. Otherwise it will end up in an error message and it is not able to boot. Yes, if you disable the harddisk in the BIOS you can't boot from it. But no problem. The machine has a floppy drive so I created a boot disk with a linux kernel on it. Linux recognizes the harddisk even if it is not enabled in the BIOS so the kernel can mount the harddisk as the Root-Partition.
