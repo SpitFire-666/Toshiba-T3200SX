@@ -130,8 +130,17 @@ Hinge info/pics: https://www.reddit.com/r/retrobattlestations/comments/pd9lpv/to
 
 ## Screw types 🔩
 
+### Screen
 
 - Screen base/hinge (underneath power/status LED cover): 2x 8mm screws
+- Screen top (under the rubber pads): 2x 8mm
+- Grounding wire: 1x 8mm
+- Plasma frame: 4x 8mm
+
+Contrast board: FH4V02 (T5200 is FH3V04)
+
+Plasma display is the same as the T5200, however T3200SX frame is metal and T5200 frame is plastic
+
 - Base: 10x 10mm screws (brown)
 - Keyboard plate (steel cover): 2x 10mm screws (gold)
 - Rear plastic cover (eg with port labels): 2x 8mm screws
