@@ -125,8 +125,13 @@ Hinge info/pics: https://www.reddit.com/r/retrobattlestations/comments/pd9lpv/to
 
 # Disassembly
 
+
+
+
 ## Screw types 🔩
 
+
+- Screen base/hinge (underneath power/status LED cover): 2x 8mm screws
 - Base: 10x 10mm screws (brown)
 - Keyboard plate (steel cover): 2x 10mm screws (gold)
 - Rear plastic cover (eg with port labels): 2x 8mm screws
