@@ -183,6 +183,14 @@ _If you're going to go with a crappy HDD, at least let us swap it out easily! Wh
 http://omolini.steptail.com/t3200sx/files/docs/Toshiba%20T3200SX%20-%20Maintenance%20Manual.pdf
 
 
+# Plasma display
+
+- Display will function OK without contrast control board plugged in/present
+- Display will NOT power up without both the power (J2) and signal (J1) plugs plugged in
+- Display is interchangeable with T5200
+- PCB: m480t640hb02b
+- PDP: MD480T640PG3
+
 # References
 
 https://www.vogons.org/viewtopic.php?t=60109
