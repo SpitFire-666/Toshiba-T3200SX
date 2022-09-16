@@ -43,6 +43,14 @@ http://ps-2.kev009.com/sandy55/Interposer/386_upgrade.html
 
 - HDD benchmark
 
+Using CheckIt 2.1
+
+Average seek time: 18.9ms
+
+Track to Track seek time: 6.5ms
+
+Transfer Speed: 339.6K/Second
+
 ![image](https://user-images.githubusercontent.com/38451588/160823671-f259afed-fcee-45d1-baeb-a9dcd5fa5b12.png)
 
 
