@@ -18,7 +18,7 @@ _"First, we make the RAM non-standard, then we lock the BIOS to only accept Conn
 - Modem bay
 
 
-# CPU 
+# CPU
 
 - Intel i386SX @ 16MHz (soldered onto mainboard)
 
@@ -38,6 +38,8 @@ http://ps-2.kev009.com/sandy55/Interposer/386_upgrade.html
 - Interface: Standard IDE
 
 - Conner CP-30104 - this is the 120MB HDD
+
+- Conner ?????? - 40MB HDD
 
 ![image](https://user-images.githubusercontent.com/38451588/156489701-bdf69780-0c87-43c3-b1d6-52d631953f38.png)
 
@@ -61,7 +63,6 @@ Transfer Speed: 339.6K/Second
 ![image](https://user-images.githubusercontent.com/38451588/155963732-d490cf97-a6b0-4f93-8cb7-6e3f3d54fdb1.png)
 
 - An XT-IDE CF adapter is an option
-
  
  # BIOS
  
@@ -135,8 +136,7 @@ Hinge info/pics: https://www.reddit.com/r/retrobattlestations/comments/pd9lpv/to
 
 
 
-
-## Screw types 🔩
+## 🔩 Screw types
 
 ### Screen
 
@@ -156,6 +156,7 @@ Plasma display is the same as the T5200, however T3200SX frame is metal and T520
 - Plastic covers on top: 2x 8mm screws (gold)
 - Top section screw (anchors the top section, near floppy drive mount): 1x 8mm screw (gold)
 - Floppy drive sled: 3x 8mm screws (gold)
+- Modem access panel: 3x ??mm screws
 
 
 http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html
@@ -236,6 +237,22 @@ CAS line/trace going to pin28 has been intercepted and relayed to pin2.
 
 I have discovered out how to make a standard 2 Meg or 1 Meg 30 pin SIMM work in the T3200sx. What you have to do is cut the trace that is connected to the CASP line (pin 28) and connect that to the CAS line (pin 2). This will result in a 1 Meg module that will work with out the parity error that you will get with out this modification. I have noticed that your 2 Meg Toshiba SIMMs have only 4 chips on them instead of the usual 9 or 3. It would be interesting to try and find the datasheet for the chips and try and figure out the pinout of a 2 Meg Toshiba SIMM. In my T3200sx my 2 Meg modules have 6 chips and I have only been able to find the datasheet for 4 of them. I think that the other 2 are the parity chips but I am not sure. I have found out that pin 19 is grounded on the 2 Meg Toshiba SIMM. I am also guessing that pin 28 on the 2 Meg Toshiba SIMM is A10 but I am not sure. By the way feel free to post this information on your website where ever you think that people will read it. 
 
-
-
  I removed the old defective drive and installed a newer harddisk with a capacity of 2 GB. Enough for this pretty little machine. The BIOS is not able to recognize this harddisk so it is necessary to tell the BIOS that no harddisk is installed. Otherwise it will end up in an error message and it is not able to boot. Yes, if you disable the harddisk in the BIOS you can't boot from it. But no problem. The machine has a floppy drive so I created a boot disk with a linux kernel on it. Linux recognizes the harddisk even if it is not enabled in the BIOS so the kernel can mount the harddisk as the Root-Partition.
+
+
+You need a second HN27C1024-85 chip and a EPROM flash tool like the MiniPro. Might also need a UV bulb to erase the chip, though a week or so in direct sunlight should also work to erase it.
+
+It recognises the drive as 40MB but you can use software that is resident in the MBR to expand it to 500-ish MB. Check out his page for more info: http://www.steptail.com/toshiba_t-series_support:toshiba_t3200sx
+
+
+ I strongly recommend using a stock replacement - 3.6V Lithium same size/shape as a normal AA with tag leads.
+This is because the layout of the T3200 makes it damn near impossible to fit a dual AA holder properly, mine is now firmly squished against the IDE and FDD cables :/ its firm and the machine didn't mind, but it's not as tidy as the T5200 where the AA holder fits perfectly in the original position.
+
+I found out what it does like though, one pair DID work, they're 9 chip 120ns and either 2Mb or 4Mb in capacity - the extended memory test stopped at ~2400KB with a read/write error (not a parity error). None of the others worked, so I need to work out if they're the magic 2Mb SIMMs and that's why it worked, or if they're general 4Mb parity SIMMs - in which case I'll have to hop on ebay. 
+
+
+the details given for the memory upgrade kits indicate that this system will probably only take 1MB SIMMs (2MB kit), with the 4MB kit being a designer dream for the marketing people to convince prospective buyers with how 'future-proof' you would be to buy one of these systems. Check out the brochure. Only suit wearing yuppies are the target market, not computer savvy nerds like us. (8MB+ download)
+
+
+The SIMMs that it responded to are Mitsubishi 120ns 256KB but it appears it's hardcoded for 1024KB modules - it must have pretended they were 1024KB (if I add up the failure point + 640KB conventional I get a perfect 3MB). SIMM model number was Mitsubishi MH25609BJ-12 (and I checked the chips are in fact 256-12 models). It must have overwritten the SIMM modules 4 times in the test, and I wonder if those Mitsubishi chips are wired to allow this and that's why they worked? (I need to study more on this topic I think :) ).
+
