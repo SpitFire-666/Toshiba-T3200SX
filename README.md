@@ -35,13 +35,24 @@ http://ps-2.kev009.com/sandy55/Interposer/386_upgrade.html
 
 # Hard Disk Drive (HDD)
 
-- Interface: Standard IDE
+### Interface
 
-- Conner CP-30104 - this is the 120MB HDD
+Standard IDE. Note that the mainboard uses a larger 44-pin connector (PJ12) but with the last 4 pins unpopulated:
 
-- Conner ?????? - 40MB HDD
+![image](https://user-images.githubusercontent.com/38451588/224856602-b8fe5677-807f-4e51-b0ae-c71451bf6a8f.png)
+
+
+![image](https://user-images.githubusercontent.com/38451588/224856507-c3ae42d6-c6eb-4255-8efa-dcf3c1d28b2f.png)
+
+### HDD types
+
+#### Conner CP-30104 (120MB)
 
 ![image](https://user-images.githubusercontent.com/38451588/156489701-bdf69780-0c87-43c3-b1d6-52d631953f38.png)
+
+#### Conner ?????? (40MB)
+
+
 
 - HDD benchmark
 
