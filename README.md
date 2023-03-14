@@ -57,8 +57,9 @@ HDD benchmark: using CheckIt 2.1
 - Transfer Speed: 339.6K/Second
 
 
-#### Conner ?????? (40MB)
+#### Conner CP-3044 (40MB)
 
+![image](https://user-images.githubusercontent.com/38451588/224888070-3081cfb4-808c-4d20-a789-e7bc255df2d1.png)
 
 
 ## HDD replacement/upgrades
@@ -207,22 +208,18 @@ http://omolini.steptail.com/t3200sx/files/docs/Toshiba%20T3200SX%20-%20Maintenan
 
 # References
 
-https://www.vogons.org/viewtopic.php?t=60109
 
-https://www.vogons.org/viewtopic.php?p=823257#p823257
-
-http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html
-
-https://medium.com/geekculture/the-luggable-laptop-how-does-it-look-today-part-ii-toshiba-t3200-from-1989-6d15ce56eadd
-
-https://www.dreamcast.nu/en/how-to-install-ms-dos-on-a-cf-card-without-using-a-floppy/
-
-https://www.reddit.com/r/VintageComputers/comments/rwrgdj/lotech_xt_to_cf_lite_question/
-
-https://www.reddit.com/r/vintagecomputing/comments/s4xgy7/made_a_breakthrough_with_screen_problems_bright/
-
-
-https://www.youtube.com/watch?v=GzktcqYO8zw
+| Desc | Link |
+|-|-|
+| | https://www.vogons.org/viewtopic.php?t=60109 |
+| T3200SX Specs | https://www.manualslib.com/manual/330225/Toshiba-T-Series-T3200sx.html |
+| | https://www.vogons.org/viewtopic.php?p=823257#p823257 |
+| | http://omolini.steptail.com/t3200sx/mirror/www.ailis.de/~k/archives/21-Toshiba-T3200-SXC.html |
+| | https://medium.com/geekculture/the-luggable-laptop-how-does-it-look-today-part-ii-toshiba-t3200-from-1989-6d15ce56eadd |
+| | https://www.dreamcast.nu/en/how-to-install-ms-dos-on-a-cf-card-without-using-a-floppy/ |
+| | https://www.reddit.com/r/VintageComputers/comments/rwrgdj/lotech_xt_to_cf_lite_question/ | 
+| | https://www.reddit.com/r/vintagecomputing/comments/s4xgy7/made_a_breakthrough_with_screen_problems_bright/ |
+| | https://www.youtube.com/watch?v=GzktcqYO8zw
 
 
 # Unverified/unsorted info
