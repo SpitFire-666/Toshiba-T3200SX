@@ -22,6 +22,10 @@ _"First, we make the RAM non-standard, then we lock the BIOS to only accept Conn
 
 - Intel i386SX @ 16MHz (soldered onto mainboard)
 
+## Math Co-Processor
+
+- Intel 80387SX
+
 ## CPU Upgrade Options
 
 - Cx486SRx² (snaps on top of existing CPU)
