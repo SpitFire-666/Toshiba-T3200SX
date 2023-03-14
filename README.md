@@ -50,21 +50,15 @@ Standard IDE. Note that the mainboard uses a larger 44-pin connector (PJ12) but 
 
 ![image](https://user-images.githubusercontent.com/38451588/156489701-bdf69780-0c87-43c3-b1d6-52d631953f38.png)
 
+HDD benchmark: using CheckIt 2.1
+
+- Average seek time: 18.9ms
+- Track to Track seek time: 6.5ms
+- Transfer Speed: 339.6K/Second
+
+
 #### Conner ?????? (40MB)
 
-
-
-- HDD benchmark
-
-Using CheckIt 2.1
-
-Average seek time: 18.9ms
-
-Track to Track seek time: 6.5ms
-
-Transfer Speed: 339.6K/Second
-
-![image](https://user-images.githubusercontent.com/38451588/160823671-f259afed-fcee-45d1-baeb-a9dcd5fa5b12.png)
 
 
 ## HDD replacement/upgrades
@@ -190,7 +184,7 @@ _If you're going to go with a crappy HDD, at least let us swap it out easily! Wh
 - Release the power connector from the mainboard - this will give a little more wiggle room (note, the screen connector cannot be unplugged 😠)
 - There are 3 screws for the HDD sled, undo #1 and #2 (near the SIMM slot and near the power supply)
 
-![image](https://user-images.githubusercontent.com/38451588/155965401-8e72efff-0b52-400c-99af-8d6a23078a15.png)
+![image](https://user-images.githubusercontent.com/38451588/224858011-e080e083-5c6f-4400-be13-bc9f84d1aa2f.png)
 
 
 - Now you can wiggle the HDD a bit - this will allow you to unplug the IDE cable from the drive (normally blocked by the expansion port connector thingy - again _who_ designed this?)
