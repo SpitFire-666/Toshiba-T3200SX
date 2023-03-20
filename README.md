@@ -160,6 +160,7 @@ Contrast board: FH4V02 (T5200 is FH3V04)
 Plasma display is the same as the T5200, however T3200SX frame is metal and T5200 frame is plastic
 
 - Base: 10x 10mm screws (brown)
+- Rear expansion plate/metal cover: 3x 8mm
 - Keyboard plate (steel cover): 2x 10mm screws (gold)
 - Rear plastic cover (eg with port labels): 2x 8mm screws
 - Rear metal cover (I/O port cover): 3x 8mm screws
