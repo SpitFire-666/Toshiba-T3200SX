@@ -213,6 +213,16 @@ http://omolini.steptail.com/t3200sx/files/docs/Toshiba%20T3200SX%20-%20Maintenan
 
 # References
 
+## T3200SX upgraded with USB and WiFi
+
+![image](https://user-images.githubusercontent.com/38451588/231641335-29638dd0-39ea-474d-8de0-971cc8e699d7.png)
+
+https://www.youtube.com/watch?v=WX30t3lYezs
+
+## T3200SX new PSU, LCD, WiFi
+
+https://www.youtube.com/watch?v=kXoOnAgggJo
+
 
 | Desc | Link |
 |-|-|
